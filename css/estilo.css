@@ -1,0 +1,214 @@
+body {
+	/*font-family:"Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", Helvetica, Arial, sans-serif;*/
+	background: transparent url(../img/light-bg.jpg) repeat;
+	color: #565656;
+	font-size: 11px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+
+.cont_g {
+    margin-top: -25px;
+    padding-left: 0px;
+    background: rgba(137, 204, 243, 0.4);
+
+    border-radius: 9px 9px 30px 30px;
+    -moz-border-radius: 9px 9px 30px 30px;
+    -webkit-border-radius: 9px 9px 30px 30px;
+    border: 0px solid #000000;
+    /*opacity: 0.6;*/
+    
+    /*filter: alpha(opacity=60); */
+    /*For IE8 and earlier */
+}
+ 
+
+.page-footer {
+    background-color: rgb(33, 150, 243);
+
+}
+
+.carousel {
+  
+    height: 400px !important;
+}
+
+blockquote{
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 10px solid #64b5f6; /* Just change the color value and that's it*/
+    font-size: 30px;
+    background: rgba(143, 140, 140, 0.1);
+    border-radius: 0px 35px 35px 0px;
+    -moz-border-radius: 0px 35px 35px 0px;
+    -webkit-border-radius: 0px 35px 35px 0px;
+  
+  }
+
+.carousel-item img{
+    display: block;
+    height: 390px;
+    background-position: center;
+    background-repeat: non-repeat;
+    background-size: cover;
+
+}
+
+.cont NO_SE_USA {
+    
+    background-image: url("../img/bg01.jpg");
+	background-repeat: no-repeat ;
+	background-size: cover;
+    border-radius: .25rem;
+    padding-left: 0px;
+    /*opacity: 0.6;*/
+   
+}
+
+/*Pagina Mapa*/
+
+.map {
+   margin:12px 0 12px 0;
+   height:400px;
+}
+
+
+.dropdown-content {
+    top: -68px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    min-width: 200px; /* Changed this to accomodate content width */
+    max-height: auto;
+    
+  }
+
+
+  .dropdown-contenttt_NO_USA {
+    top: -75px;
+    background-color: #FFFFFF;
+    margin: 0;
+    /*display: none;*/
+    display: inline-block;
+    min-width: 200px; /* Changed this to accomodate content width */
+    max-height: auto;
+    margin-left: -1px; /* Add this to keep dropdown in line with edge of navbar */
+    overflow: hidden; /* Changed this from overflow-y:auto; to overflow:hidden; */
+    opacity: 0;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 1;
+    will-change: width, height;
+  }
+
+
+  .responsive-img{
+	margin:10px auto;
+    display:block;
+    height : 11% ;
+    width: 11%;
+    }
+
+    /*Login , Crear Usuario*/
+.btn {
+    background: #5d8ffc;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    line-height: 50%;
+
+}
+
+
+/* Mi Perfil*/
+
+.cont_g2 {
+    
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 50px;
+    background: rgba(137, 204, 243, 0.4);
+
+    border-radius: 0px 32px 32px 0px;
+    -moz-border-radius: 0px 32px 32px 0px;
+    -webkit-border-radius: 0px 32px 32px 0px;
+        
+    border: 0px solid #000000;
+    /*opacity: 0.6;*/
+    
+    /*filter: alpha(opacity=60); */
+    /*For IE8 and earlier */
+}
+
+.cont_p1 {
+   
+    margin-top: 2px;
+    margin-bottom: -6px;
+    background: url("../img/user-bg.jpg") no-repeat ;
+    background-size: auto;
+    word-break:break-all
+    /*padding-bottom : 15% !important;
+    resize: horizontal;
+    overflow: hidden    ;*/
+      
+}
+
+.cont_p2 {
+    
+    background: rgba(15, 151, 117, 0.3);
+   
+}
+
+#img_user{
+   margin-top: 2px;
+    height: 100px;
+    width: 100px;
+    background: rgba(54, 148, 243, 0.3);
+}
+
+#sec01{
+    padding-bottom: 0px;
+}
+
+#List01{
+    background-color:  black;
+    
+    margin-bottom: -19px;
+
+}
+#sec02{
+    
+
+    align-content: center;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    width: 205px;
+    height: 50px;
+
+}
+
+#Cambia_clave{
+    
+    margin-top: 10px;
+    margin-left: 22px;
+    background: rgba(137, 204, 243, 0.5);
+
+    border-radius: 9px 9px 9px 9px;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+
+}
+
+.collapsible-body {
+    border-bottom-width: 0px;
+    padding-right: 0px;
+    
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
